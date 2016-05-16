@@ -32,4 +32,4 @@ var server = net.createServer(function(socket){
 
             });
 
-server.listen(process.argv[2]);
+server.listen(Number(process.argv[2]));
